@@ -475,7 +475,11 @@ input:checked + .slider:before {
   .search-prop .search{
       width:8rem;
   }
-
+  .one {
+      width: 100%;
+      height: 20rem; 
+      overflow: hidden;
+  }
   .two h3 {
       font-size: 2.5rem;
   }
@@ -517,17 +521,25 @@ input:checked + .slider:before {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    padding: 10px 15px 0px 15px;
+    width: 100%;
 }
-  .top-nav .nav {
-      padding: 5px;
+  #gsearch-input {
+      width: 10rem;
+      padding: 10px 30px; 
   }
 
   .search-prop {
       gap: 0.3rem;
   }
-
+   .grid-container {
+      grid-template-columns: 1fr;
+        padding: 0rem;
+    }
+    .one {
+        width: 100%;
+        height: 20rem; 
+        overflow: hidden;
+    }
   .two h3 {
       font-size: 2rem;
   }
