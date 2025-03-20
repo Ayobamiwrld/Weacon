@@ -198,15 +198,9 @@ const updateWeatherUI = (data) => {
         weatherIcon.textContent = 'water_drop';
     }
     else if(description === "Mist" || description === "Fog") {
-         // Use a video element for displaying the fog video
-    const videoElement = document.createElement('video');
-    videoElement.src = "DEv image/4651633-hd_1920_1080_30fps.mp4";
-    videoElement.autoplay = true;
-    videoElement.loop = true;
-    videoElement.muted = true;
-    image.replaceWith(videoElement);
-    weatherIcon.className = 'material-symbols-outlined';
-    weatherIcon.textContent = 'mist';
+        image.src = "DEv image/misty-12749_256.gif";
+        weatherIcon.className = 'material-symbols-outlined';
+        weatherIcon.textContent = 'mist';
     }
     else {
         image.src = "DEv image/sky-4583_512.gif";
