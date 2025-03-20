@@ -423,6 +423,7 @@ input:checked + .slider:before {
 
   .two h3 {
       font-size: 3rem;
+      text-align: center;
   }
 
   .two .icon h2 {
