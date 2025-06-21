@@ -136,6 +136,7 @@ const fetchWeatherData = () => {
             console.log(error);
             image.src = "DEv image/Earth Gif.gif";
             locationName.innerHTML = 'City not found';
+            locationName.style.paddingTop = '1rem';
             humidityElement.innerHTML = 'N/A';
             windSpeed.innerHTML = 'N/A';
             iconContainer.style.display = 'none';
@@ -150,6 +151,7 @@ const loadNothing = () => {
         image.src = "DEv image/Earth Gif.gif";
         locationName.innerHTML = 'Please enter a  valid city';
         locationName.style.fontSize = '2rem';
+        locationName.style.paddingTop = '1rem';
         humidityElement.innerHTML = 'N/A';
         windSpeed.innerHTML = 'N/A';
         iconContainer.style.display = 'none';
