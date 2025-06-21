@@ -200,7 +200,7 @@ const updateWeatherUI = (data) => {
     else if(description === "Mist" || description === "Fog") {
         image.src = "DEv image/misty-12749_256.gif";
         weatherIcon.className = 'material-symbols-outlined';
-        weatherIcon.textContent = 'mist';
+        weatherIcon.textContent = 'mist' || 'foggy';
     }
     else {
         image.src = "DEv image/sky-4583_512.gif";

@@ -310,7 +310,7 @@ input:checked + .slider:before {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 2rem;
+    padding: 3rem;
     font-size: 1.5rem;
     font-weight: 500;
     color: rgb(29, 28, 28);
@@ -550,7 +550,7 @@ input:checked + .slider:before {
   }
 
   .two .icon i {
-      font-size: 3rem;
+      font-size: 2rem;
   }
 
   .three .text, .four .text {
